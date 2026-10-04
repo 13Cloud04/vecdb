@@ -1,0 +1,116 @@
+{
+  "machine": "arm",
+  "n": 1000000,
+  "M": 16,
+  "ef_construction": 200,
+  "build_threads": 10,
+  "libraries": {
+    "vecdb": {
+      "build_s": null,
+      "index_mb": 636,
+      "curve": [
+        {
+          "ef": 10,
+          "recall": 0.7091,
+          "qps": 24435
+        },
+        {
+          "ef": 20,
+          "recall": 0.8397,
+          "qps": 17871
+        },
+        {
+          "ef": 40,
+          "recall": 0.9272,
+          "qps": 10124
+        },
+        {
+          "ef": 80,
+          "recall": 0.9746,
+          "qps": 5317
+        },
+        {
+          "ef": 160,
+          "recall": 0.9933,
+          "qps": 3035
+        },
+        {
+          "ef": 320,
+          "recall": 0.9981,
+          "qps": 1613
+        }
+      ]
+    },
+    "hnswlib": {
+      "build_s": null,
+      "curve": [
+        {
+          "ef": 10,
+          "recall": 0.7094,
+          "qps": 11243
+        },
+        {
+          "ef": 20,
+          "recall": 0.8388,
+          "qps": 7398
+        },
+        {
+          "ef": 40,
+          "recall": 0.927,
+          "qps": 4602
+        },
+        {
+          "ef": 80,
+          "recall": 0.9746,
+          "qps": 2563
+        },
+        {
+          "ef": 160,
+          "recall": 0.993,
+          "qps": 1441
+        },
+        {
+          "ef": 320,
+          "recall": 0.9983,
+          "qps": 806
+        }
+      ]
+    },
+    "faiss": {
+      "build_s": null,
+      "curve": [
+        {
+          "ef": 10,
+          "recall": 0.7157,
+          "qps": 27670
+        },
+        {
+          "ef": 20,
+          "recall": 0.846,
+          "qps": 13533
+        },
+        {
+          "ef": 40,
+          "recall": 0.9336,
+          "qps": 7946
+        },
+        {
+          "ef": 80,
+          "recall": 0.9775,
+          "qps": 4310
+        },
+        {
+          "ef": 160,
+          "recall": 0.9937,
+          "qps": 2164
+        },
+        {
+          "ef": 320,
+          "recall": 0.9982,
+          "qps": 1156
+        }
+      ]
+    }
+  },
+  "brute_force_qps": 71.5
+}

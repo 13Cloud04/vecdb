@@ -1,0 +1,161 @@
+{
+  "vecdb float32": {
+    "build_s": 30.1,
+    "vector_mb": 670.2,
+    "index_mb": 687.1,
+    "curve": [
+      {
+        "ef": 20,
+        "recall": 0.9206,
+        "qps": 4799
+      },
+      {
+        "ef": 40,
+        "recall": 0.9607,
+        "qps": 3020
+      },
+      {
+        "ef": 80,
+        "recall": 0.9792,
+        "qps": 1795
+      },
+      {
+        "ef": 160,
+        "recall": 0.9895,
+        "qps": 1043
+      },
+      {
+        "ef": 320,
+        "recall": 0.9961,
+        "qps": 543
+      }
+    ]
+  },
+  "vecdb sq8": {
+    "build_s": 12.4,
+    "vector_mb": 167.6,
+    "index_mb": 184.4,
+    "curve": [
+      {
+        "ef": 20,
+        "recall": 0.919,
+        "qps": 5721
+      },
+      {
+        "ef": 40,
+        "recall": 0.9584,
+        "qps": 3449
+      },
+      {
+        "ef": 80,
+        "recall": 0.9736,
+        "qps": 2114
+      },
+      {
+        "ef": 160,
+        "recall": 0.9815,
+        "qps": 1130
+      },
+      {
+        "ef": 320,
+        "recall": 0.987,
+        "qps": 656
+      }
+    ]
+  },
+  "vecdb sq8 + rerank": {
+    "build_s": 12.1,
+    "vector_mb": 837.8,
+    "index_mb": 854.6,
+    "curve": [
+      {
+        "ef": 20,
+        "recall": 0.9239,
+        "qps": 5728
+      },
+      {
+        "ef": 40,
+        "recall": 0.9646,
+        "qps": 3072
+      },
+      {
+        "ef": 80,
+        "recall": 0.9811,
+        "qps": 2183
+      },
+      {
+        "ef": 160,
+        "recall": 0.9901,
+        "qps": 971
+      },
+      {
+        "ef": 320,
+        "recall": 0.9962,
+        "qps": 571
+      }
+    ]
+  },
+  "hnswlib float32": {
+    "build_s": 57.2,
+    "vector_mb": 670.2,
+    "curve": [
+      {
+        "ef": 20,
+        "recall": 0.9153,
+        "qps": 1322
+      },
+      {
+        "ef": 40,
+        "recall": 0.9621,
+        "qps": 839
+      },
+      {
+        "ef": 80,
+        "recall": 0.9774,
+        "qps": 499
+      },
+      {
+        "ef": 160,
+        "recall": 0.9885,
+        "qps": 289
+      },
+      {
+        "ef": 320,
+        "recall": 0.9967,
+        "qps": 175
+      }
+    ]
+  },
+  "faiss float32": {
+    "build_s": 38.5,
+    "vector_mb": 670.2,
+    "curve": [
+      {
+        "ef": 20,
+        "recall": 0.9315,
+        "qps": 4669
+      },
+      {
+        "ef": 40,
+        "recall": 0.9676,
+        "qps": 2836
+      },
+      {
+        "ef": 80,
+        "recall": 0.9842,
+        "qps": 1604
+      },
+      {
+        "ef": 160,
+        "recall": 0.9907,
+        "qps": 826
+      },
+      {
+        "ef": 320,
+        "recall": 0.996,
+        "qps": 522
+      }
+    ]
+  },
+  "brute_force_qps": 47.6
+}

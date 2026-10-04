@@ -1,0 +1,82 @@
+[
+  {
+    "selectivity": 0.5,
+    "allowed": 500000,
+    "graph_recall": 0.9924,
+    "graph_qps": 2071,
+    "scan_qps": 50,
+    "auto": "graph",
+    "auto_recall": 0.9924,
+    "auto_qps": 2078
+  },
+  {
+    "selectivity": 0.2,
+    "allowed": 200000,
+    "graph_recall": 0.9982,
+    "graph_qps": 988,
+    "scan_qps": 48,
+    "auto": "graph",
+    "auto_recall": 0.9982,
+    "auto_qps": 1277
+  },
+  {
+    "selectivity": 0.1,
+    "allowed": 100000,
+    "graph_recall": 0.999,
+    "graph_qps": 564,
+    "scan_qps": 82,
+    "auto": "graph",
+    "auto_recall": 0.999,
+    "auto_qps": 560
+  },
+  {
+    "selectivity": 0.05,
+    "allowed": 50000,
+    "graph_recall": 0.9992,
+    "graph_qps": 327,
+    "scan_qps": 227,
+    "auto": "graph",
+    "auto_recall": 0.9992,
+    "auto_qps": 329
+  },
+  {
+    "selectivity": 0.02,
+    "allowed": 20000,
+    "graph_recall": 1.0,
+    "graph_qps": 166,
+    "scan_qps": 2129,
+    "auto": "scan",
+    "auto_recall": 1.0,
+    "auto_qps": 2122
+  },
+  {
+    "selectivity": 0.01,
+    "allowed": 10000,
+    "graph_recall": 1.0,
+    "graph_qps": 97,
+    "scan_qps": 4137,
+    "auto": "scan",
+    "auto_recall": 1.0,
+    "auto_qps": 4324
+  },
+  {
+    "selectivity": 0.001,
+    "allowed": 1000,
+    "graph_recall": 1.0,
+    "graph_qps": 15,
+    "scan_qps": 48648,
+    "auto": "scan",
+    "auto_recall": 1.0,
+    "auto_qps": 48306
+  },
+  {
+    "selectivity": 0.0001,
+    "allowed": 100,
+    "graph_recall": 1.0,
+    "graph_qps": 2,
+    "scan_qps": 322823,
+    "auto": "scan",
+    "auto_recall": 1.0,
+    "auto_qps": 309965
+  }
+]
